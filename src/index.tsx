@@ -3,14 +3,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Parent } from './props/Parent';
 import GuestList from './state/GuestList';
+import UserSearch from './state/UserSearch';
+import UserSearchREF from './refs/UserSearchAndREF';
+import CompWithEvents from './events/compWithEvents';
+
 
 function App() {
   return (
     <div>
       XxXXX
       <Parent />
-      <hr />
+      <br /><hr /><br />
       <GuestList />
+      <br /><hr /><br />
+      <UserSearch/>
+      <br /><hr /><br />
+      <UserSearchREF/>
+      <br /><hr /><br />
+      <CompWithEvents/>
     </div>
   );
 }
